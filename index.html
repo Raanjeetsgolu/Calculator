@@ -1,0 +1,59 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="Calculator_wrapper">
+        <h1>Calculator</h1>
+        <div>
+            
+                
+                <input type="text" id="input" disabled >
+        </br>
+            
+        </div>
+        <div class="btn_wrapper">
+            
+                <input type="button" class="btn" id="block0" onclick="dis('0')"value="0">
+                <input type="button" class="btn"  id="block1" onclick="dis('1')"value="1">
+                <input type="button" class="btn" id="block2" onclick="dis('2')"value="2">
+                <input type="button" class="btn"  id="clr" value="Clr" onclick="clr()">
+                
+            
+        </div>
+        <div>
+            
+                <input type="button" class="btn" id="block3" onclick="dis('3')" value="3">
+                <input type="button" class="btn" id="block4" onclick="dis('4')" value="4">
+                <input type="button"  class="btn"  id="block5" onclick="dis('5')" value="5">
+                <input type="button" class="btn"  id="multiply" onclick="dis('*')" value="*">
+            
+        </div>
+        <div>
+            
+                <input type="button" class="btn" id="block6" onclick="dis('6')" value="6">
+            <input type="button" class="btn" id="block7" onclick="dis('7')" value="7">
+            <input type="button" class="btn"  id="block8" onclick="dis('8')" value="8">
+                <input type="button" class="btn" id="minus" onclick="dis('-')" value="-">
+            
+        </div>
+        <div>
+            
+               <input type="button" class="btn"  id="block9" onclick="dis('9')" value="9">
+               <input type="button" class="btn" id="divide" onclick="dis('/')" value="/">
+                <input type="button" class="btn"  id="dot" onclick="dis('.')" value=".">
+               <input type="button" class="btn" id="plus" onclick="dis('+')" value="+">
+            
+        </div>
+        <input type="button"   id="ans" onclick="solve()" value="Answer">
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
